@@ -1,0 +1,104 @@
+{
+  "intents": [
+      {"tag": "noanswer",
+          "patterns": [""],
+          "responses": ["Maaf, saya tidak mengerti apa yang kamu maksud.", 
+          "Maaf, untuk saat ini chatbot ini belum dapat menjawab pertanyaan kamu."]
+      },
+      {"tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! TanyaQleap di sini. Ada yang bisa dibantu?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "login",
+      "patterns": [
+        "Tidak bisa login",
+        "gabisa login"
+      ],
+      "responses": [
+        "Halo, kamu bisa login dengan menggunakan email corporate dan juga password email kamu, yaa!"
+      ]
+    },
+    {
+      "tag": "forgotpass",
+      "patterns": [
+        "Lupa password"
+      ],
+      "responses": [
+        "Untuk password qleap yaitu NIK + Tanggal lahir (dd/mm/yyyy) kamu yaa!"
+      ]
+    },
+    {
+      "tag": "paklaring",
+      "patterns": [
+        "akses paklaring"
+      ],
+      "responses": [
+        "Halo, untuk akses surat paklaring bagi karyawan yang telah resign dapat diakses melalui link berikut ya https://development.erajaya.com/psbb/"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        "fuck u"
+      ],
+      "responses": [
+        "Sorry i can't understand"
+      ]
+    }
+  ]
+}
